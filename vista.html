@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+        }
+        .header { color: #2c3e50; font-size: 24px; text-align: center; }
+        .content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+        }
+        .numero {
+            font-size: 40px;
+            font-weight: bold;
+            color: #111723;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #111723;
+            border-radius: 8px;
+            width: 10%;
+            max-width: 50px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>¡Bienvenido a HassleFreePay!</h1>
+</div>
+<div class="content">
+
+    <p>Estimado usuario, Gracias por usar nuestro servicio. Estamos emocionados de tenerte con nosotros.</p>
+
+    <h2>este es tu codigo de verificacion</h2>
+    <div class="row">
+        <div class="numero">
+            ${partes[0]}
+        </div>
+        <div class="numero">
+            ${partes[1]}
+        </div>
+        <div class="numero">
+            ${partes[2]}
+        </div>
+        <div class="numero">
+            ${partes[3]}
+        </div>
+        <div class="numero">
+            ${partes[4]}
+        </div>
+        <div class="numero">
+            ${partes[5]}
+        </div>
+    </div>
+    <p>Para comenzar a utilizar tu cuenta, usa este codigo</p>
+
+    <p>Si tienes alguna pregunta, no dudes en contactarnos.</p>
+</div>
+</body>
+</html>
+
+</html>
