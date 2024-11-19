@@ -4,7 +4,7 @@ let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'hasslefreepay@gmail.com',
-        pass: 'gkyyqsxjzgapeqiv' // Considera usar un "App Password" para mayor seguridad
+        pass: '' // Considera usar un "App Password" para mayor seguridad
     }
 });
 let htmlContent = `
